@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  
+  #Nginx services
+  nginx:
+    image: nginx:1.21
+    ports:
+      - 80:80
