@@ -1,10 +1,10 @@
 # Docker
 
  - Reference
-    [The lemp stack tutorial article](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)
-    [Dockerhub nginx official repository](https://hub.docker.com/_/nginx)
-    [Dockerhub php official repository](https://hub.docker.com/_/php)
-    [Make PHP-FPM work with NGINX configuration](https://www.linode.com/docs/guides/serve-php-php-fpm-and-nginx/)
+    [The lemp stack tutorial article](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)  
+    [Dockerhub nginx official repository](https://hub.docker.com/_/nginx)  
+    [Dockerhub php official repository](https://hub.docker.com/_/php)  
+    [Make PHP-FPM work with NGINX configuration](https://www.linode.com/docs/guides/serve-php-php-fpm-and-nginx/)  
 
 
  - Great docker-compose commands 
