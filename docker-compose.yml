@@ -1,8 +1,20 @@
 version: "3.9"
 services:
   
-  #Nginx services
+  #Nginx service
   nginx:
     image: nginx:1.21
     ports:
       - 80:80
+    volumes:
+      - "./website:/var/www/php"
+      - "./.docker/nginx/conf.d:/etc/nginx/conf.d"
+    depends_on:
+      - php
+      
+    #PHP service
+  php:
+    image: php:8.1-fpm
+    working_dir: /var/www/php
+    volumes:
+      - "./website:/var/www/php"
