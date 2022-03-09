@@ -1,6 +1,6 @@
 # Docker
 
- - Reference
+ - Reference  
     [The lemp stack tutorial article](https://tech.osteel.me/posts/docker-for-local-web-development-part-1-a-basic-lemp-stack)  
     [Dockerhub nginx official repository](https://hub.docker.com/_/nginx)  
     [Dockerhub php official repository](https://hub.docker.com/_/php)  
