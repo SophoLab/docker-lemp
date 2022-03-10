@@ -14,15 +14,29 @@ For run docker compose container :
 
 The `docker compose up` run the container and `-d` is for run the process in background.
 
-For stop container :  
+Stop the container :  
     `docker-compose stop`  
 
-For see all container on the current project :  
+List containers :  
     `docker-compose ps`  
 this command is for display all the current container who runs on the current project.
 
-For see container logs :  
+List container logs :  
     `docker-container logs -f`  
 
-for see logs of one service only type : 
-    `docker-container logs -f name_of_the_service`
+Tail the container's logs  :  
+    `docker-container logs -f [service]`  
+Replace [service] with a service name (e.g. nginx) to display this service's logs only.
+
+Restart the container :  
+    `docker-compose restart`  
+
+Stop and/or Destroy container:  
+    `docker-compose down`  
+
+Stop and/or destroy the containers and their volumes  
+    `docker-compose down -v`  
+
+Delete everything, including images and orphan containers  
+    `docker-compose down -v --rmi all --remove-ophans`  
+
